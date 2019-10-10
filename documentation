@@ -1,0 +1,8 @@
+execute
+
+python -m scripts.brocoapi -in e -t tbl_Productos -top 10 -d \|
+
+
+
+# docker run -d -it --name ubu2 -v /var/lib/mysql2:/var/lib/mysql ubuntu:17.10
+# docker run -d -it --name ubu2 -v "$(pwd)"/datos:/var/lib/mysql ubuntu:17.10
